@@ -1,0 +1,55 @@
+/* @import url('https://fonts.googleapis.com/css?family=Pridi:400,700') */
+
+
+
+
+
+
+body{
+    background : url('https://static01.nyt.com/images/2012/09/09/magazine/09weather/mag-09weather-t_CA0-superJumbo.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    @media screen and (max-width: 300px);
+    font-size: 8px;
+}
+
+
+.box{
+
+    max-width: 80%;
+    margin : 40px auto;
+    background-color: white;
+    border: 0.5px solid white;
+    /* background-color: #ggg; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Pridi', serif ;
+    background: url("https://static.pexels.com/photos/9601/flight-clouds-airplane-view.jpg");
+    background-size: cover
+}
+h1{
+    text-align: center;
+    font-size: 4em;
+    text-shadow: 1px 3px 3px;
+    margin-bottom: 20px;
+    
+  }
+
+  h2{
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 1px 1px 1px;
+    margin-bottom: 10px;
+    
+  }
+  .inputData{
+    width: 80%;
+    text-align: center;
+    margin-top :10px;
+    margin-bottom: 10px
+  }
+  .inputField{
+      text-align: center;
+      max-width: 40%;
+  }
